@@ -1,0 +1,11 @@
+# Packages installed & byte-compiled by elpa
+elpa/
+
+session.*
+
+backup/
+eshell/
+auto-save-list/
+straight/
+transient/
+url/
