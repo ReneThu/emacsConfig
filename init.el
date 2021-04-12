@@ -104,10 +104,11 @@
 (setq inhibit-startup-screen t)
 (nyan-mode)
 
-(load (expand-file-name "~/.quicklisp/slime-helper.el"))
-(setq inferior-lisp-program "sbcl")
-(ffap-bindings)
-(global-set-key (kbd "C-x r <RET>") 'ranger)
+;;TODO fix slime
+;;(load (expand-file-name "~/.quicklisp/slime-helper.el"))
+;;(setq inferior-lisp-program "sbcl")
+;;(ffap-bindings)
+;;(global-set-key (kbd "C-x r <RET>") 'ranger)
 
 (defvar-local endless/display-images t)
 
