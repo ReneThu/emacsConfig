@@ -28,7 +28,7 @@
 ;;(add-hook 'window-setup-hook 'toggle-frame-maximized t)
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
-(setq package-list '(nyan-mode zone-nyan json-mode yaml-mode ranger magit))
+(setq package-list '(nyan-mode zone-nyan json-mode yaml-mode ranger magit spacemacs-theme))
 
 ; activate all the packages
 (package-initialize)
